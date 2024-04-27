@@ -19,8 +19,8 @@ def collatz (num):
 
 def collatz(num): #defines the function
     sequence =[num]
-    while (num!=1):
-        if(num %2 == 0):
+    while (num!=1): # while num is not equal to 1
+        if(num %2 == 0): # %2==0 means even 
             num = num/2
             sequence.append(num) #adds the outputs into the square brackets: [num]
         else:

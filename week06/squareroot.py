@@ -1,5 +1,6 @@
-#print(9**(1/2))
-
+# Squareroot.py
+# Write a program that takes a positive floating-point number and outputs its square root
+# Author: Sandra Donatus
 
 #number = input('Please enter a positive number:') - always get errors when using this function
 number = 100
